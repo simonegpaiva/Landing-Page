@@ -1,0 +1,110 @@
+:root{
+  --fundo:linear-gradient(130deg, rgb(0, 17, 255), #19d4f5, white);
+  --fonte: 'Roboto', sans-serif;
+  --boxes: #fceeee81;
+  --icones: rgb(91, 91, 235);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:var(--fundo);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fceeee81;
+  border-radius: 20px;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.box{
+  margin: auto;
+  width: 240px;
+  
+}
+
+.mapa{
+  width: 330px;
+  height: 170px;
+  
+}
+
+.box2{
+  margin: auto;
+  width: 80%;
+}
+
+.title{
+  font-family: var(--fonte);
+  padding-bottom: 25px;
+  text-align: center;
+}
+span{
+  padding: 30px;
+}
+.login, .senha{
+  font-family: var(--fonte);
+  font-size: 1rem;
+  font-weight: bold; 
+  margin: 15px 0 5px 25px; 
+}
+
+input{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: var(--boxes);
+  margin: auto;
+  padding: 8px;
+}
+
+.submit{
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--icones);
+  color: white;
+  font-weight: bold;
+  font-size: .9rem;
+  margin: 20px 35px;
+}
+
+.submit:hover{
+  background-color: white;
+  color: var(--icones);
+  font-size: 1.1rem;
+}
+
+.acessos{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  padding: 5px;
+  text-decoration: none;
+  font-family: var(--fonte);
+  font-size: .8rem;
+}
+
+a:hover{
+  color: purple;
+  font-size: 1.1rem;
+}
+
+
+footer{
+  padding-top: 40px;
+  text-align: center;
+}
